@@ -1,3 +1,8 @@
 $(document).ready(function() {
-  console.log("see me in console")
+  $("p").click(function() {
+    alert("you click p  dom")
+  });
+  $("div").click(function(){
+    alert("you click div")
+  })
 });
